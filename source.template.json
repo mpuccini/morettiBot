@@ -1,0 +1,22 @@
+[
+    {
+        "type": "Vino Rosso 2019",
+        "quantity": 25
+    },
+    {
+        "type": "Vino Bianco 2020",
+        "quantity": 20
+    },
+    {
+        "type": "Vino Rosato 2020",
+        "quantity": 15
+    },
+    {
+        "type": "Vino Rosso 2018",
+        "quantity": 10
+    },
+    {
+        "type": "Vino Rosso 2017",
+        "quantity": 5
+    }
+]

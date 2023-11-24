@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "morettibot"
+version = "0.1.0"
+description = ""
+authors = ["Marco Puccini <m.puccini@cineca.it>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-telegram-bot = "^20.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

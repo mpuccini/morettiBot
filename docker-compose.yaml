@@ -1,0 +1,16 @@
+
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ${LOCAL_DATA}:/app/data/
+      - ${SOURCE_DATA}:/app/data/source.json
+    environment:
+      - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
+    command: bash -c "
+      python /app/bot/init_db.py
+      && python /app/bot/main.py
+      "
